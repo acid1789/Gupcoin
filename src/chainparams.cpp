@@ -118,10 +118,8 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x"));
         assert(genesis.hashMerkleRoot == uint256S("0x"));
 
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "seed1.gupcoin.network"));
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "seed2.gupcoin.network"));
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "seed3.gupcoin.network"));
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "seed4.gupcoin.network"));
+        vSeeds.push_back(CDNSSeedData("gupcoin.network", "207.148.27.179"));
+       
 
         // Gupcoin addresses start with 'G'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
