@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gupcoin
+Comment=Gupcoin P2P Cryptocurrency
+Exec=gupcoin-qt %u
+Terminal=false
+Type=Application
+Icon=gupcoin128
+MimeType=x-scheme-handler/gupcoin;
+Categories=Office;Finance;
+Name[en_US]=gupcoin-qt.desktop

@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/gupcoin_bg.qm</file>
+        <file alias="de">locale/gupcoin_de.qm</file>
+        <file alias="en">locale/gupcoin_en.qm</file>
+        <file alias="es">locale/gupcoin_es.qm</file>
+        <file alias="fi">locale/gupcoin_fi.qm</file>
+        <file alias="fr">locale/gupcoin_fr.qm</file>
+        <file alias="it">locale/gupcoin_it.qm</file>
+        <file alias="ja">locale/gupcoin_ja.qm</file>
+        <file alias="pl">locale/gupcoin_pl.qm</file>
+        <file alias="pt">locale/gupcoin_pt.qm</file>
+        <file alias="ru">locale/gupcoin_ru.qm</file>
+        <file alias="sk">locale/gupcoin_sk.qm</file>
+        <file alias="sv">locale/gupcoin_sv.qm</file>
+        <file alias="vi">locale/gupcoin_vi.qm</file>
+        <file alias="zh_CN">locale/gupcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/gupcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

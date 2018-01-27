@@ -1,0 +1,6 @@
+usr/local/bin/gupcoin-qt usr/bin
+share/pixmaps/gupcoin32.xpm usr/share/pixmaps
+share/pixmaps/gupcoin16.xpm usr/share/pixmaps
+share/pixmaps/gupcoin128.png usr/share/pixmaps
+debian/gupcoin-qt.desktop usr/share/applications
+debian/gupcoin-qt.protocol usr/share/kde4/services/
