@@ -115,7 +115,7 @@ public:
 
         genesis = CreateGenesisBlock(1510848000, 1631855, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a"));
         assert(genesis.hashMerkleRoot == uint256S("0x"));
 
         vSeeds.push_back(CDNSSeedData("gupcoin.network", "207.148.27.179"));
@@ -248,7 +248,7 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x")),
+            ( 0, uint256S("0x00000dbc9aa1686b4dfb177300185c6a3e0b13d1d4d346c5bccdd19fdf9ebc5a")),
 
             1510727200, // * UNIX timestamp of last checkpoint block
             0,     // * total number of transactions between genesis and last checkpoint
