@@ -115,7 +115,7 @@ public:
 
         genesis = CreateGenesisBlock(1510848000, 1631855, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000033b01055cf8df90b01a14734cae92f7039b9b0e48887b4e33a469d7bc07"));
         assert(genesis.hashMerkleRoot == uint256S("0x"));
 
         vSeeds.push_back(CDNSSeedData("gupcoin.network", "207.148.27.179"));
