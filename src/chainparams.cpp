@@ -123,10 +123,10 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x000009b5dd62ca437bf8a93790c52e06de5618b44142cd039b37d8fc21813ea6"));
         assert(genesis.hashMerkleRoot == uint256S("0x99895ba4c8b16f44970b714b8e796d54b1f7e81d3bab0326f5abdb1f8726a1b8"));
 
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "207.148.27.179"));
-        vSeeds.push_back(CDNSSeedData("gupcoin.network", "45.76.18.13"));
-	vSeeds.push_back(CDNSSeedData("gupcoin.network", "207.148.8.38"));
-	vSeeds.push_back(CDNSSeedData("gupcoin.network", "45.76.228.32"));
+        vSeeds.push_back(CDNSSeedData("108.61.202.187", "108.61.202.187"));
+        vSeeds.push_back(CDNSSeedData("45.76.18.13", "45.76.18.13"));
+	vSeeds.push_back(CDNSSeedData("207.148.8.38", "207.148.8.38"));
+	vSeeds.push_back(CDNSSeedData("45.76.228.32", "45.76.228.32"));
 
         // Gupcoin addresses start with 'G'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,38);
@@ -225,8 +225,12 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("gupcoin.network",  "testnet-dns.gupcoin.network"));
-        vSeeds.push_back(CDNSSeedData("gupcoin.network",  "testnet2-dns.gupcoin.network"));
+        vSeeds.push_back(CDNSSeedData("108.61.202.187", "108.61.202.187"));
+        vSeeds.push_back(CDNSSeedData("45.76.18.13", "45.76.18.13"));
+        vSeeds.push_back(CDNSSeedData("207.148.8.38", "207.148.8.38"));
+        vSeeds.push_back(CDNSSeedData("45.76.228.32", "45.76.228.32"));
+
+
 
         // Testnet Gupcoin addresses start with 'n'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,112);
