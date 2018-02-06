@@ -116,7 +116,7 @@ public:
         nDefaultPort = 7576;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
-        genesis = CreateGenesisBlock(1517948400, 0, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517948400, 2885584, 0x1e0ffff0, 1, 50 * COIN);
 		// uncomment to log genesis block info
 
         
@@ -220,7 +220,7 @@ public:
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517948400, 0, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517948400, 2885584, 0x1e0ffff0, 1, 50 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x0000009e9b5da6248b72f379cc67fc78fd909ac8bef18209fa6005859b03e920"));
@@ -319,7 +319,7 @@ public:
         nDefaultPort = 7578;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1517948400, 0, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517948400, 2885584, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x0000009e9b5da6248b72f379cc67fc78fd909ac8bef18209fa6005859b03e920"));
         assert(genesis.hashMerkleRoot == uint256S("0x5448cac065b85a12198faba5a5b6fe740d3cc260427facb46bb7f47d5a891fd8"));
